@@ -6,8 +6,8 @@
 // @author       Xiaomayisjh
 // @homepage     https://github.com/xiaomayisjh/smartedu-downloader
 // @supportURL   https://github.com/xiaomayisjh/smartedu-downloader/issues
-// @updateURL    https://raw.githubusercontent.com/smartedu-downloader/main/tampermonkey-js/smartedu-pdf-downloader.user.js
-// @downloadURL  https://raw.githubusercontent.com/smartedu-downloader/main/tampermonkey-js/smartedu-pdf-downloader.user.js
+// @updateURL    https://github.com/xiaomayisjh/smartedu-downloader/raw/refs/heads/master/tampermonkey-js/smartedu-pdf-downloader.user.js
+// @downloadURL  https://github.com/xiaomayisjh/smartedu-downloader/raw/refs/heads/master/tampermonkey-js/smartedu-pdf-downloader.user.js
 // @match        https://basic.smartedu.cn/tchMaterial/detail*
 // @match        https://basic.smartedu.cn/*/tchMaterial/detail*
 // @grant        none
