@@ -1,18 +1,18 @@
 // ==UserScript==
 // @name         智慧中小学PDF下载器
-// @namespace    https://github.com/smartedu-downloader
+// @namespace    https://github.com/xiaomayisjh/smartedu-downloader
 // @version      1.0.0
 // @description  自动提取并下载智慧教育平台教材页面的PDF文件，支持认证头处理和智能检测
-// @author       SmartEdu Downloader
-// @homepage     https://github.com/smartedu-downloader
-// @supportURL   https://github.com/smartedu-downloader/issues
-// @updateURL    https://raw.githubusercontent.com/smartedu-downloader/main/smartedu-pdf-downloader.user.js
-// @downloadURL  https://raw.githubusercontent.com/smartedu-downloader/main/smartedu-pdf-downloader.user.js
+// @author       Xiaomayisjh
+// @homepage     https://github.com/xiaomayisjh/smartedu-downloader
+// @supportURL   https://github.com/xiaomayisjh/smartedu-downloader/issues
+// @updateURL    https://raw.githubusercontent.com/smartedu-downloader/main/tampermonkey-js/smartedu-pdf-downloader.user.js
+// @downloadURL  https://raw.githubusercontent.com/smartedu-downloader/main/tampermonkey-js/smartedu-pdf-downloader.user.js
 // @match        https://basic.smartedu.cn/tchMaterial/detail*
 // @match        https://basic.smartedu.cn/*/tchMaterial/detail*
 // @grant        none
 // @run-at       document-end
-// @license      MIT
+// @license      GPL-3.0-or-later
 // @icon         https://basic.smartedu.cn/favicon.ico
 // ==/UserScript==
 
