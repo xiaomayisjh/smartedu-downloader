@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "智慧中小学PDF下载器",
+  "version": "1.0.0",
+  "description": "自动提取并下载智慧教育平台教材页面的PDF文件",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://basic.smartedu.cn/*",
+    "https://r3-ndr-private.ykt.cbern.com.cn/*",
+    "https://r2-ndr-private.ykt.cbern.com.cn/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://basic.smartedu.cn/tchMaterial/detail*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "智慧教育PDF下载器",
+    "default_icon": "icons/icon.png"
+  },
+  "icons": {
+    "16": "icons/icon.png",
+    "32": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  }
+}
